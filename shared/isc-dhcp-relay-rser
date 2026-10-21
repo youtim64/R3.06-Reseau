@@ -1,0 +1,5 @@
+# Defaults for isc-dhcp-relay
+
+SERVERS="10.0.7.1"
+INTERFACES="eth0 eth1"
+OPTIONS=""

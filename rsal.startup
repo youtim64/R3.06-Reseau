@@ -1,0 +1,8 @@
+sysctl -w net.ipv4.ip_forward=1
+
+ip a add 10.0.5.2/30 dev eth0
+ip link set dev eth0 up
+ip a add 192.168.101.33/28 dev eth1
+ip link set dev eth1 up
+ip route add default via 10.0.5.1
+cp /shared/resolv.conf /etc/resolv.conf
