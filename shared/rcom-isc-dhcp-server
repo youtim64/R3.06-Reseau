@@ -1,4 +1,0 @@
-# Defaults for isc-dhcp-server
-
-INTERFACESv4="eth1"
-INTERFACESv6=""

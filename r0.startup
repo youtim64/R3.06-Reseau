@@ -32,7 +32,8 @@ apt install isc-dhcp-server -y
 cp /shared/dhcpd.conf /etc/dhcp/dhcpd.conf
 cp /shared/isc-dhcp-server /etc/default/isc-dhcp-server
 
-/etc/init.d/isc-dhcp-server start
+dhcpd -t -cf /etc/dhcp/dhcpd.conf
+systemctl restart isc-dhcp-server
 
 
 

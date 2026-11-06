@@ -2,4 +2,4 @@
 
 SERVERS="10.0.3.1"
 INTERFACES="eth0 eth1"
-OPTIONS=""
+OPTIONS="-4"

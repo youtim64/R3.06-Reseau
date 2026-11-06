@@ -12,5 +12,6 @@ apt install isc-dhcp-relay -y
 cp /shared/isc-dhcp-relay-rser /etc/default/isc-dhcp-relay
 
 systemctl restart isc-dhcp-relay
+systemctl enable isc-dhcp-relay
 
 cp /shared/resolv.conf /etc/resolv.conf
